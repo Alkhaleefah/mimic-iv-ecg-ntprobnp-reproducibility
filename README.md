@@ -1,4 +1,4 @@
-# ECG-Based Prediction of NT-proBNP: Reproducibility Code
+# mimic-iv-ecg-ntprobnp-reproducibility
 
 This repository contains the reproducibility code used to construct the MIMIC-IV external validation cohort and preprocess electrocardiogram (ECG) data for an artificial intelligence (AI)-enabled single-lead (Lead I) ECG model for predicting N-terminal pro-B-type natriuretic peptide (NT-proBNP).
 

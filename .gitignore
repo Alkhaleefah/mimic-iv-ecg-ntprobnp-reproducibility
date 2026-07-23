@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+slurm-*.out
+job.*.log
+job.*.err
+
+# Generated data and images
+data/
+outputs/
+results/
+ECG_Images_24h/
+lead1_images/
+*.hea
+*.dat
+*.npy
+*.npz
+
+# Protected clinical data
+labevents.csv
+machine_measurements.csv
+records_w_diag_icd10.csv
+ntprobnp_ecg_within24h.csv
+ntprobnp_ecg_same_day.csv
+
+# Operating system
+.DS_Store
+Thumbs.db

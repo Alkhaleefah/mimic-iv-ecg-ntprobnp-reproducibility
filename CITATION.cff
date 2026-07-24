@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "mimic-iv-ecg-ntprobnp-reproducibility"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: Alkhalifah
+    given-names: Mohammad
+      # Uncomment and edit if you have an ORCID:
+      # orcid: "https://orcid.org/0000-0000-0000-0000"
+
+repository-code: "https://github.com/Alkhaleefah/mimic-iv-ecg-ntprobnp-reproducibility"
+
+version: "1.0.1"
+
+doi: "10.5281/zenodo.21521314"
+
+date-released: "2026-07-24"
+
+license: MIT
+
+abstract: >
+  Reproducibility code for constructing the MIMIC-IV external validation cohort,
+  matching ECGs with NT-proBNP measurements within ±24 hours, generating
+  standardized ECG images, extracting single-lead ECG (Lead I), and
+  preprocessing data for deep learning-based BNP and NT-proBNP estimation.
+
+Add CITATION.cff

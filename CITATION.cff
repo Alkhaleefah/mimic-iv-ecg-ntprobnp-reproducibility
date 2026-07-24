@@ -4,25 +4,48 @@ message: "If you use this software, please cite it using the metadata below."
 type: software
 
 authors:
-  - family-names: Alkhalifah
-    given-names: Mohammad
-      # Uncomment and edit if you have an ORCID:
-      # orcid: "https://orcid.org/0000-0000-0000-0000"
-
-repository-code: "https://github.com/Alkhaleefah/mimic-iv-ecg-ntprobnp-reproducibility"
-
-version: "1.0.1"
-
-doi: "10.5281/zenodo.21521314"
-
-date-released: "2026-07-24"
-
-license: MIT
+  - family-names: "Alkhalifah"
+    given-names: "Mohammad"
 
 abstract: >
   Reproducibility code for constructing the MIMIC-IV external validation cohort,
-  matching ECGs with NT-proBNP measurements within ±24 hours, generating
-  standardized ECG images, extracting single-lead ECG (Lead I), and
-  preprocessing data for deep learning-based BNP and NT-proBNP estimation.
+  matching electrocardiograms (ECGs) with NT-proBNP measurements within ±24 hours,
+  generating standardized 12-lead ECG images, extracting the single-lead ECG
+  (Lead I), and preprocessing data for deep learning-based BNP and NT-proBNP
+  estimation from wearable-compatible single-lead ECG images.
 
-Add CITATION.cff
+repository-code: "https://github.com/Alkhaleefah/mimic-iv-ecg-ntprobnp-reproducibility"
+
+url: "https://github.com/Alkhaleefah/mimic-iv-ecg-ntprobnp-reproducibility"
+
+doi: "10.5281/zenodo.21521314"
+
+version: "1.0.1"
+
+date-released: "2026-07-24"
+
+license: "MIT"
+
+keywords:
+  - ECG
+  - Electrocardiography
+  - Single-lead ECG
+  - Wearable ECG
+  - NT-proBNP
+  - BNP
+  - Heart Failure
+  - Deep Learning
+  - Artificial Intelligence
+  - MIMIC-IV
+  - MIMIC-IV-ECG
+  - Reproducibility
+  - Medical AI
+  - Digital Biomarkers
+
+preferred-citation:
+  type: article
+  title: "Deep Learning-Based BNP and NT-proBNP Estimation from Wearable-Compatible Single-Lead ECG Images for Heart Failure Assessment"
+  authors:
+    - family-names: "Alkhalifah"
+      given-names: "Mohammad"
+  status: "submitted"
